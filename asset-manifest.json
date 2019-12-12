@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/OmariLawrence.github.io/static/css/main.d1b05096.chunk.css",
+    "main.js": "/OmariLawrence.github.io/static/js/main.6d54de8b.chunk.js",
+    "main.js.map": "/OmariLawrence.github.io/static/js/main.6d54de8b.chunk.js.map",
+    "runtime-main.js": "/OmariLawrence.github.io/static/js/runtime-main.a7e3c888.js",
+    "runtime-main.js.map": "/OmariLawrence.github.io/static/js/runtime-main.a7e3c888.js.map",
+    "static/js/2.ffc8faea.chunk.js": "/OmariLawrence.github.io/static/js/2.ffc8faea.chunk.js",
+    "static/js/2.ffc8faea.chunk.js.map": "/OmariLawrence.github.io/static/js/2.ffc8faea.chunk.js.map",
+    "index.html": "/OmariLawrence.github.io/index.html",
+    "precache-manifest.c45e74907a36996adc1fd0337816a3c9.js": "/OmariLawrence.github.io/precache-manifest.c45e74907a36996adc1fd0337816a3c9.js",
+    "service-worker.js": "/OmariLawrence.github.io/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/OmariLawrence.github.io/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.ffc8faea.chunk.js.LICENSE": "/OmariLawrence.github.io/static/js/2.ffc8faea.chunk.js.LICENSE",
+    "static/media/logo.svg": "/OmariLawrence.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7e3c888.js",
+    "static/js/2.ffc8faea.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.6d54de8b.chunk.js"
+  ]
+}
