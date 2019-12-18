@@ -28,13 +28,6 @@ export class AboutMe extends Component {
                 "Founder, JORM Games, 2018 - current"]
        }
    }
-   
-
-    skillList = this.state.skills.map((skill, index) => <li key={index}>{skill}</li>)
-    eduList = this.state.edu.map((ed) => ed)
-    accompList = this.state.accomp.map((acc, index) => <li key={index}>{acc}</li>)
-    expList = this.state.exp.map((ex, index) => <li key={index}>{ex}</li>)
-    afilList = this.state.affil.map((aff, index) => <li key={index}>{aff}</li>)
 
     render() {
         return (
@@ -49,25 +42,25 @@ export class AboutMe extends Component {
             <br/>
             <h2>Skills</h2>
             <ul>
-                {this.skillList}
+                {this.state.skills.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
             <br/>
             <h2>Education</h2>
-                {this.eduList}
+                {this.state.edu.map((ed) => ed)}
             <br/>
             <h2>Accomplishments</h2>
             <ul>
-                {this.accompList}
+                {this.state.accomp.map((acc, index) => <li key={index}>{acc}</li>)}
             </ul>
             <br/>
             <h2>Experience</h2>
             <ul>
-                {this.expList}
+                {this.state.exp.map((ex, index) => <li key={index}>{ex}</li>)}
             </ul>
             <br/>
             <h2>Affiliations</h2>
             <ul>
-                {this.afilList}
+                {this.state.affil.map((aff, index) => <li key={index}>{aff}</li>)}
             </ul>
         </div>
         )
