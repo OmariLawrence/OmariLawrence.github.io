@@ -1,7 +1,7 @@
 {
   "name": "new-github-website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://OmariLawrence.github.io/OmariLawrence.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
