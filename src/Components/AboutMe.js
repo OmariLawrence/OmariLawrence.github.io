@@ -41,27 +41,19 @@ export class AboutMe extends Component {
                 hard work and commitment to quality.</p>
             <br/>
             <h2>Skills</h2>
-            <ul>
-                {this.state.skills.map((skill, index) => <li key={index}>{skill}</li>)}
-            </ul>
+            {this.state.skills.map((skill, index) => <li key={index}>{skill}</li>)}
             <br/>
             <h2>Education</h2>
-                {this.state.edu.map((ed) => ed)}
+            {this.state.edu.map((ed) => ed)}
             <br/>
             <h2>Accomplishments</h2>
-            <ul>
-                {this.state.accomp.map((acc, index) => <li key={index}>{acc}</li>)}
-            </ul>
+            {this.state.accomp.map((acc, index) => <li key={index}>{acc}</li>)}
             <br/>
             <h2>Experience</h2>
-            <ul>
-                {this.state.exp.map((ex, index) => <li key={index}>{ex}</li>)}
-            </ul>
+            {this.state.exp.map((ex, index) => <li key={index}>{ex}</li>)}
             <br/>
             <h2>Affiliations</h2>
-            <ul>
-                {this.state.affil.map((aff, index) => <li key={index}>{aff}</li>)}
-            </ul>
+            {this.state.affil.map((aff, index) => <li key={index}>{aff}</li>)}
         </div>
         )
     }
