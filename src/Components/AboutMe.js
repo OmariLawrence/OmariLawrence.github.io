@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import omari from './pictures/picture.jpg'
+import './AboutMe.css'
 
 export class AboutMe extends Component {
    constructor(props) {
@@ -33,7 +34,7 @@ export class AboutMe extends Component {
         return (
             <div>
             <h1>Omari Lawrence</h1>
-            <img src={omari} alt="omari" height="10%" width="10%"/>
+            <img src={omari} alt="omari" id="pic"/>
             <br/>
             <h2>Professional Summary</h2>
             <p>Proactive Student with skills in Python, Java and C++. 
