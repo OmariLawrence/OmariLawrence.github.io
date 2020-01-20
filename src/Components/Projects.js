@@ -18,7 +18,7 @@ function Projects() {
                 <br/>
                 <h2>Eggcellence 2: Hard Boiled</h2>
                 <img src={egg} alt='egg'height="20%" width="20%"/>
-                <p>A very silly game where you run around a village throwing eggs at 
+                <p>A silly game where you run around a village throwing eggs at 
                     people and there houses, while trying to avoid being caught by
                     the villagers.
                     <br></br>
