@@ -1,14 +1,18 @@
 import React from 'react'
 
 function Project({project}) {
+    let newText = project.desc.split('\n').map((item, i) => {
+        return <p key={i}>{item}</p>;
+    });
     return (
         <div>
             <br/>
-            <h2>{project.name}</h2>
-            <img src={project.src} alt='egg'height="20%" width="20%"/>
+            <h2>{project.Name}</h2>
+            {project.src}
             <p>
-                {project.desc}
+                {newText}
             </p>
+            <b><a href= {project.link}>Access Here!</a></b>
         </div>
     )
 }
